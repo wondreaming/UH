@@ -14,13 +14,13 @@ const Inviting = ({ onClose, openLink }) => {
             setInviting(false); // 여기서 inviting을 false로 설정하면, 사용자가 백그라운드를 클릭할 때 초대 팝업이 닫힙니다.
             onClose && onClose(); // onClose 함수가 제공되었다면 호출
           }}
-          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+          className="fixed inset-0  flex justify-center items-center z-50"
         >
           <section
             onClick={(e) => e.stopPropagation()}
             className="bg-white rounded-3xl border-gray-200 border shadow-lg p-10 md:p-6 mx-2"
-            >
-              <InviteList />
+          >
+            <InviteList />
           </section>
         </div>
       )}

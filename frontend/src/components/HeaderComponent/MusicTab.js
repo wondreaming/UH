@@ -37,7 +37,7 @@ const MusicTab = () => {
       play();
     }
   };
-  console.log("음악 실행 됨", isPlaying);
+  // console.log("음악 실행 됨", isPlaying);
   return (
     <button
       className="py-2 px-5 text-xl text-center rounded-t-lg bg-tab8 transform origin-bottom transition duration-200 hover:scale-y-125"
