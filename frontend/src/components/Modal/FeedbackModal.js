@@ -84,7 +84,7 @@ const FeedbackModal = (props) => {
             </button>
             <button onClick={() => {
               sendFeedback();
-              playClick();
+              // playClick();
             }}
               className="bg-tab10 py-2 px-3 m-2 rounded-xl hover:bg-tab10hover">
               보내기
