@@ -82,9 +82,9 @@ const FeedbackModal = (props) => {
               className="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 mr-2 rounded-xl">
               취소
             </button>
-            <button onClick={() => {
-              sendFeedback();
-              // playClick();
+            <button onClick={(e) => {
+              sendFeedback(e);
+              playClick();
             }}
               className="bg-tab10 py-2 px-3 m-2 rounded-xl hover:bg-tab10hover">
               보내기
